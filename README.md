@@ -1,2 +1,4 @@
 # ECAS
-Repositorio para la publicación de recursos del proyecto "MODELO DE GESTIÓN DE ACTIVIDADES EXTRACURRICULARES PARA LA FIDELIZACIÓN DE ESTUDIANTES BASADO EN TECNOLOGÍA BLOCKCHAIN APLICADO EN LA CORPORACIÓN UNIVERSITARIA RAFAEL NÚÑEZ."
+Repositorio para la publicación de recursos del proyecto "`Modelo de gestión de actividades extracurriculares para la fidelización de estudiantes basado en Blockchain aplicado en la Corporación Universitaria Rafael Núñez`"
+
+![Arquitectura](./arquitectura-proyecto.png)
