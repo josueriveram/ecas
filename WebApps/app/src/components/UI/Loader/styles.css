@@ -1,0 +1,61 @@
+.loader{
+    z-index: 1050 !important;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background: #0404042e;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NG-placeholder-loader{
+    /* width: 200px;
+    height: 100px; */
+    background-color: #00000003;
+    border-radius: inherit;
+    min-height: inherit !important;
+    /* border: 1px solid #00000003; */
+    /* box-shadow: 0 4px 20px -9px rgba(33, 33, 33, 0.15); */
+}
+.NG-placeholder-loader .placeholder-item {
+    /* border-radius: 10px; */
+    border-radius: inherit !important;
+    height: 100%;
+    width: 100%;
+    min-height: inherit !important;
+    position: relative;
+    overflow: hidden;
+}
+/* .NG-placeholder-loader.rounded-circle .placeholder-item {
+    border-radius: inherit !important;
+} */
+
+.NG-placeholder-loader .placeholder-item::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -150px;
+    top: 0;
+    height: 100%;
+    width: 150px;
+    background: linear-gradient(to right, transparent 0%, #efefef5c 50%, transparent 100%);
+    animation: load 1s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+}
+
+@keyframes load {
+    from {
+        left: -150px;
+    }
+    to   {
+        left: 100%;
+    }
+}

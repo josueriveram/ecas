@@ -1,6 +1,7 @@
-# WALLET PROJECT
+# ECAS APP PROJECT
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## 1. Packages instalation
 Open wallet project and execute the comand:
@@ -10,21 +11,20 @@ npm install
 ```
 
 ## 2. Configuration
+Into root of ecas app project, go to the file <b>public/_config.js</b> and set the configuration needed:
 
-Into root of wallet project, go to the file <b>truffle-config.js</b> and find the line:
 ```JS
-...
-
-goerli:{
-    provider: () => new HDWalletProvider(mnemonic, "https://goerli.infura.io/v3/[API_KEY]"),
-    network_id:5
+{
+    api_base_url: 'https://[API_URL]/api',
+    error_reporting_url: "[ERROR_REPORTING_API_URL]",
+    ldap_search_user: '[LDAP_API_URL]',
+    google_client_id: '[GOOGLE_CLIENT_ID].apps.googleusercontent.com',
+    logo_login: '/logologin.svg',
+    app_url: 'https://[PIBLIC_APP_URL]', //App public link
+    maintenance_url: "[API_MAINTENANCE_URL_REQUEST]", //OPTIONAL TO VERIFY IF APP IS IN MAINTENANCE
+    wallet_url: 'https://[WALLET_APP_URL]', //OPTIONAL FOR WALLET
 }
-
-...
 ```
-
-Then, you have to replace API_KEY to your own api key generated in Infura
-
 
 ## 3. Compilation
 To generate a production build, execute the next comand:

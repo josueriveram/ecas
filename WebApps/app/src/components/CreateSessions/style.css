@@ -1,0 +1,66 @@
+.sessions-list .card{
+    transition: all 0.2s linear;
+    border: 1px solid transparent !important;
+    box-shadow: none !important;
+    cursor: pointer;
+}
+.sessions-list .card:hover{
+    border: 1px solid #ff9400 !important;
+    box-shadow: 0px 4px 36px -23px #00000046 !important;
+    background-color: #fff !important;
+}
+
+.sessions-list .card .session-indicator, .sessions-list .card .session-indicator.have-asistance{
+    transition: all 0.2s linear;
+    height: 22px;
+    width: 22px;
+    font-size: 12px;
+    font-weight: bolder;
+    border-radius: 50rem;
+    /* color: #fff; */
+    /* color: #000; */
+    /* opacity: 0.5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid #fff;
+    left: -7px;
+    top: -9px;
+    padding: 10px;
+}
+
+.sessions-list .card .session-indicator{
+    background-color: #ff9400;
+    color: #fff !important;
+}
+
+.sessions-list .card .session-indicator.have-asistance{
+    left: 22px;
+    /* width: auto;
+    font-weight: 100; */
+}
+
+.sessions-list .card:hover .session-indicator.delete{
+    background-color:#dc3545;
+    color: transparent !important;
+    transform: scale(1.4);
+}   
+.sessions-list .card:hover .session-indicator.delete::after{
+    font-size: 14px;
+    content: "x";
+    color: #fff;
+    position: absolute;
+    font-weight: 100;
+    margin-bottom: 2px;
+}
+.sessions-list .card:hover .session-indicator.delete:hover{
+    /* background-color:#ff909b; */
+    background-color:#fff;
+    border: 2px solid #dc3545;
+}
+.sessions-list .card:hover .session-indicator.delete:hover::after{
+    color: #dc3545 !important;
+    font-weight: bold;
+
+}

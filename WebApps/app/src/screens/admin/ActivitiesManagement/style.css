@@ -1,0 +1,26 @@
+.step-indicator{
+    display: flex;
+    background-color: #d1d1d1;
+    color: white;   
+    /* background-color: rgb(226, 226, 226); */
+    /* color: gray; */
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    font-weight: 600;
+}
+
+.card.active .step-indicator{
+    background-color: #ff9400;
+}
+
+.card.completed .step-indicator{
+    background-color: #fff;
+    color: #31ad68;
+}
+.card.completed .step-indicator > svg{
+    height: 100%;
+    width: 100%;
+}

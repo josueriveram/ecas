@@ -1,0 +1,64 @@
+/* .activity-list .card{
+  border: 1px solid #eaeaeacc !important;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.activity-list .card:hover{
+  border: 1px solid #ff95003a !important;
+  box-shadow: 0px 5px 22px -8px #0000002e;
+  transform: translateY(-5px);
+}
+
+.activity-list .card .card-body > div:nth-child(2) > div{
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  text-align: center;
+  font-size: 12.8px;
+  color: gray;
+}
+.activity-list .card .card-body > div:nth-child(1){
+  border-bottom: 1px solid #eaeaeacc !important;
+}
+.activity-list .card .card-body > div:nth-child(2){
+  transition: all 0.2s linear;
+}
+.activity-list .card .card-body > div:nth-child(2) > div > span:nth-child(2){
+  font-weight: bold;
+}
+
+.activity-list .card .card-body>.button-action{
+  position: relative;
+}
+.activity-list .card .card-body>.button-action>button{
+  transition: all 0.2s linear, opacity 0.1s linear;
+  position: absolute;
+  top: 36px;
+  width: 100%;
+  background-color: #ff9400;
+  color: white;
+  text-align: center;
+  border-radius: 8px !important;
+  padding: 5px 10px;
+  opacity: 0;
+}
+.activity-list .card:hover .card-body>.button-action>button{
+  top: -36px;
+  display: inline-block;
+  height: auto;
+  opacity: 1;
+}
+.activity-list .card:hover .card-body>.button-action>button{
+  top: -36px;
+  display: inline-block;
+  height: auto;
+  opacity: 1;
+}
+.activity-list .card:hover .card-body>div:nth-child(2){
+  opacity: 0;
+  transform: translateY(36px);
+} */
