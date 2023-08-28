@@ -1,0 +1,120 @@
+body{
+  background-color: #f7f7f7 !important;
+  /* color: #fff ; */
+}
+.navbar{
+  height: 120px !important;
+  color: white !important;
+  /* background-color: #dee2e65e !important; */
+  /* background-color: #dee2e6 !important; */
+  /* background-image: linear-gradient(45deg, rgb(255, 148, 0), rgb(255, 177, 0)); */
+  /* border-bottom: 4px solid #ff9400; */
+}
+/* .navbar:after{
+  content: " ";
+  background-color: linear-gradient(45deg, rgb(195, 195, 195), transparent);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100px;
+  width: 150px;
+  border-radius: 100%;
+} */
+.navbar > div{
+  padding-top: 35px !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.NG-app{
+  min-height: calc(100vh - 120px - 130px);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  /* align-items: center;  */
+}
+
+.NG-app .head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer{
+  min-height: 70px !important;
+  background-color: #dee2e65e !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar{
+  height: 80px !important;
+  width: 80px !important;
+  background-color: #00000015 !important;
+}
+
+.card{
+  border-radius: 10px !important;
+  border: 1px solid #eee9 !important;
+  box-shadow: 0px 1px 30px -23px #00000057 !important;
+}
+.fallback-loader{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ul.nav{
+  background-color: #ff950026;
+  padding: 4px 6px;
+  border-radius: 10px;
+}
+ul.nav>li>*{
+  transition: all 0.1s ease-in-out;
+  min-width: 130px;
+  color: #727272 !important;
+  border-radius: 10px !important;
+}
+ul.nav>li>*:hover{
+  font-weight: bold;
+}
+ul.nav>li>.active{
+  background-color: #ff9400 !important;
+  font-weight: bold;
+  color: #fff !important;
+  /* box-shadow: 0px 1px 30px -10px #00000015; */
+}
+
+.btn-warning{
+  color: #fff !important;
+  background-color: #ff9400 !important;
+}
+
+.cursor-pointer{
+  cursor: pointer !important;
+}
+
+.NG-clip{
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+}
+.NG-clip>div{
+  display: inline-block;
+}
+.NG-clip>div:first-child>img{
+  border-radius: 100%;
+  padding: 5px;
+  height: 55px;
+  width: 55px;
+  background-color: #dee2e65e !important;
+}
+
+.NG-clip>div:first-child{
+  border-radius: 100%;
+  margin-right: 10px;
+}

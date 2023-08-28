@@ -1,0 +1,23 @@
+
+/* LOADER */
+.loader > svg {
+    width: 3.75em;
+    animation: 1.5s spin ease infinite;
+  }
+  
+  .ring {
+    fill: none;
+    stroke: #ff950091;
+    stroke-width: 2;
+  }
+  
+  .ball {
+    fill: #ff9400;
+    stroke: none;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
