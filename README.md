@@ -1,3 +1,10 @@
+ _______ ______           _    
+(_______) _____)  /\     | |   
+ _____ | /       /  \     \ \  
+|  ___)| |      / /\ \     \ \ 
+| |____| \_____| |__| |_____) )
+|_______)______)______(______/ 
+                               
 # ECAS
 Repositorio para la publicación de recursos del proyecto "`Modelo de gestión de actividades extracurriculares para la fidelización de estudiantes basado en Blockchain aplicado en la Corporación Universitaria Rafael Núñez`"
 
