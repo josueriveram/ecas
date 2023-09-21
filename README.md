@@ -11,5 +11,5 @@ Repositorio para la publicación de recursos del proyecto "`Modelo de gestión d
 
 ## Implementación
 El modelo de gestión de ECAS se encuentra implementado en la Corporación Universitaria Rafael Núñez.
-[Acceso usuarios | https://activa.curn.edu.co](https://activa.curn.edu.co)
-[Acceso usuarios | https://activa.curn.edu.co](https://activa.curn.edu.co)
+[Acceso usuarios https://activa.curn.edu.co](https://activa.curn.edu.co)
+[Acceso instructores https://activa.curn.edu.co/admin](https://activa.curn.edu.co)
