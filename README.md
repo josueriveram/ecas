@@ -9,7 +9,9 @@ Repositorio para la publicación de recursos del proyecto "`Modelo de gestión d
 ### LoyaltyPoints
 [0x4206E1a260CC21CE2400B49A38032750f0290543](https://goerli.etherscan.io/address/0x4206E1a260CC21CE2400B49A38032750f0290543)
 
+
 ## Implementación
 El modelo de gestión de ECAS se encuentra implementado en la Corporación Universitaria Rafael Núñez.
 [Acceso usuarios https://activa.curn.edu.co](https://activa.curn.edu.co)
+<br/>
 [Acceso instructores https://activa.curn.edu.co/admin](https://activa.curn.edu.co)
