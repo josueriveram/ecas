@@ -20,3 +20,6 @@ El modelo de gestión de ECAS se encuentra implementado en la Corporación Unive
 <br/>
 [DApps Wallet - https://wallet.curn.edu.co](https://wallet.curn.edu.co)
 
+### Centro de ayuda para usuarios
+Documentación del sistema de información</br>
+[Ayuda para usuarios](https://sites.google.com/curn.edu.co/helpactiva/homepage)
